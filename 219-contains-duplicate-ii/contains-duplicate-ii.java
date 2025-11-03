@@ -7,7 +7,6 @@ class Solution {
             if(window.size()>k){
                 window.remove(nums[i-k]);
             }
-        
         }
         return false;
     }
