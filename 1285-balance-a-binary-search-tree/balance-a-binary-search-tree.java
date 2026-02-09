@@ -18,10 +18,10 @@ class Solution {
     List<Integer> inorder = new ArrayList<>();
 
     public TreeNode balanceBST(TreeNode root) {
-        // Step 1: Store inorder traversal
+
         inorderTraversal(root);
 
-        // Step 2: Build balanced BST
+        
         return buildBST(0, inorder.size() - 1);
     }
 
